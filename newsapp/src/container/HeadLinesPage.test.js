@@ -42,12 +42,7 @@ describe('Search News',()=>{
           .mockResolvedValueOnce(filteredValue)
         })
       });
-      
-      afterEach(() => {
-        jest.restoreAllMocks();
-      });
-      
-      afterEach(() => {
+       afterEach(() => {
         jest.restoreAllMocks();
       });
     test('search data get rendered', async() => {
