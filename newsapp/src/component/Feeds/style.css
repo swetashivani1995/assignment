@@ -1,0 +1,43 @@
+/* FLEXBOX */
+
+.headlines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .headlines-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 25vw);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 0;
+    margin: .5em;
+  }
+  .headlines-image{
+    width: 24vw;
+  }
+  .headlines-title{
+    font-size: 1rem;
+    font-family: DomaineDisplay,Georgia,serif;
+    color: black;
+    line-height: 1.25rem;
+    margin: 0;
+  }
+  .headlines-link{
+      text-decoration: none;
+  }
+  .news-content{
+    font-size: .875rem;
+    line-height: 1.125rem;
+    color: #5a5a5a;
+    font-family: DomaineDisplay,Georgia,serif;
+  }
+  .headlines-title:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+  }
